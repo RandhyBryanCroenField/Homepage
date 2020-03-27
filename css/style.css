@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  background-image: url("../img/urban.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 4%;
+}
+
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.8s ease;
+}
+
+ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+ul li.active a {
+  background-color: #fff;
+  color: #000;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title h1 {
+  color: #fff;
+  font-size: 50px;
+  font-style: italic;
+  word-spacing: 15.5mm;
+}
+
+.button {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  border: 1px solid #fff;
+  padding: 15% -0.77%;
+  color: #fff;
+  text-decoration: none;
+  word-spacing: 0.9mm;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
